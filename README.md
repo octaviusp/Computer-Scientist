@@ -9,6 +9,9 @@ N = Cantidad de datos
 F(N) = Operaciones/Pasos
 Tipos => 
 
+![image](https://user-images.githubusercontent.com/72451550/174865461-113170d7-d276-437f-b18c-bec486645374.png)
+
+
 #### Constante:
 
 (en el grafico es una recta con pendiente 0, osea y = K, con K constante) => implica que el algoritmo funciona igual ya sea para N = 1 o N tendiendo a infinito
