@@ -9,7 +9,7 @@ N = Cantidad de datos
 F(N) = Operaciones/Pasos
 Tipos => 
 
-######Constante
+###### Constante
 -(en el grafico es una recta con pendiente 0, osea y = K, con K constante) => implica que el algoritmo funciona igual ya sea para N = 1 o N tendiendo a infinito
 -----------------------------------------------
 ###### Log N => 
