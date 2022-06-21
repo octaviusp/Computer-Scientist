@@ -7,10 +7,10 @@
 Se utiliza para determinar la escalabilidad y velocidad de un algoritmo.
 
 N = Cantidad de datos
--
 F(N) = Operaciones/Pasos
+
 Tipos => 
-#####[EN EL GRAFICO N MAYUSCULA ES OPERACIONES/PASOS n MINUSCULA ES CANTIDAD DE DATOS]
+##### [EN EL GRAFICO N MAYUSCULA ES OPERACIONES/PASOS n MINUSCULA ES CANTIDAD DE DATOS]
 ![image](https://user-images.githubusercontent.com/72451550/174865461-113170d7-d276-437f-b18c-bec486645374.png)
 
 
