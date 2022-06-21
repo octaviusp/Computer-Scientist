@@ -24,27 +24,27 @@ Cantidad de data          Pasos para resolver
 	2^5 = 32		   5
 	...			  ...
 
------------------------------------------------
+
 ######Raiz(n) 
 - similar al logaritmo pero escala mas rapido, es bastante optimo un algoritmo asi tambien.
------------------------------------------------
+
 ######N
 -(Linea recta con pendiente = 1, de la forma y = x, ordenada 0) => Significa que para N cantidad  de data => N pasos
 No es muy eficiente, pero mejor que otros es. Linear search
------------------------------------------------
+
 ######N.log(n) -
 - (hiperbola)=> La mayoria de algoritmos tienen esta escalabilidad
 es aceptable. Merge sort, quick sort
------------------------------------------------
+
 ###### n ^ 2 
 -(parabola ineficiente pero mejor que los siguientes) = Bubble sort, insertion sort, selection sort.
------------------------------------------------
+
 ###### 2^n
 - (parabola muy ineficiente)
------------------------------------------------
+
 ###### n! 
 - (El peor de todos) demasiado ineficiente
------------------------------------------------
+
 
 ### - Big O Notation =>
 ######- Forma rapida y accesible para determinar escalabilidad de un algoritmo propuesto
@@ -58,7 +58,7 @@ te impone un limite y sabrás cual es el punto MAXIMO de escalabilidad, punto mu
 OMEGA(x) (OMEGA Grande) => Igual o peor que X
 omega(x) (omega pequeño) => peor que X
 
-------------------------------------------------
+
 
 ###### Array circular => 
 - Array que tiene longitud fija y una vez lleno "circula" para ir metiendo los nuevos elementos,
@@ -81,7 +81,7 @@ Si elimino el back, este pasara al elemento anterior.
 #####el front a un elemento vacio, deberia darle el puntero front al 2, y como hacemos eso? iterando hasta encontrar el siguiente numero
 #####distinto de vacio.
 
-------------------------------------------------
+
 
 ##### Array dinamico, como funciona un array dinamico?
 Bien, se divide en 2 partes
@@ -94,7 +94,7 @@ Como funciona un array dinamico por abajo ?
 Bien , una vez el tamaño logico == tamaño fisico , el compilador DUPLICA el tamaño fisico.
 osea si tenemos [5,3,-] => tamaño fisico = 3, tamaño logico = 2, luego => [5,3,1] tamaño logico == tamaño fisico por lo tanto
 => Duplicar array => [5,3,1,-,-,-]
-------------------------------------------------
+
 
 ##### ESTRUCTURAS DE DATOS IMPORTANTES >=
 
