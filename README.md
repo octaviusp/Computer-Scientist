@@ -13,7 +13,7 @@ Tipos =>
 
 (en el grafico es una recta con pendiente 0, osea y = K, con K constante) => implica que el algoritmo funciona igual ya sea para N = 1 o N tendiendo a infinito
 
-###### Log N => 
+#### Log N => 
 -implica que el algoritmo tiene muy buena escalabilidad, de hecho es la mejor que podriamos encontrar.
 Ya que el logaritmo es => Log N en base 2 = Z, donde 2 ^ Z = N, la base del logaritmo es 2 siempre por la computacion
 es decir el sistema binario que entiende la computadora.
@@ -25,29 +25,29 @@ Cantidad de data          Pasos para resolver
 	...			  ...
 
 
-######Raiz(n) 
+#### Raiz(n) 
 - similar al logaritmo pero escala mas rapido, es bastante optimo un algoritmo asi tambien.
 
-######N
+#### N
 -(Linea recta con pendiente = 1, de la forma y = x, ordenada 0) => Significa que para N cantidad  de data => N pasos
 No es muy eficiente, pero mejor que otros es. Linear search
 
-######N.log(n) -
+#### N.log(n) -
 - (hiperbola)=> La mayoria de algoritmos tienen esta escalabilidad
 es aceptable. Merge sort, quick sort
 
-###### n ^ 2 
+#### n ^ 2 
 -(parabola ineficiente pero mejor que los siguientes) = Bubble sort, insertion sort, selection sort.
 
-###### 2^n
+#### 2^n
 - (parabola muy ineficiente)
 
-###### n! 
+#### n! 
 - (El peor de todos) demasiado ineficiente
 
 
 ### - Big O Notation =>
-######- Forma rapida y accesible para determinar escalabilidad de un algoritmo propuesto
+#### Forma rapida y accesible para determinar escalabilidad de un algoritmo propuesto
 
 - X => F(x) / F(x) pertenece a las funciones anteriormente mencionadas.
 
@@ -117,7 +117,7 @@ ESTO FACILITA AÑADIR NUEVOS NODOS, OSEA INSERCION DE NODOS. LO HAREMOS EN TIEMP
 - LAS LISTAS QUE NO TIENEN BIDIRECCION REMOVERAN ELEMENTOS RANDOM EN 0(N)
 }
 
-#####-- STACKS 
+##### -- STACKS 
 {
 
 ESTRUCTURA DE DATO QUE ES UNA PILA, COMO UNA PILA DE LIBROS,
