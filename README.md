@@ -1,7 +1,7 @@
 # Computer-Scientist
 
 ## Computer science aprendizaje resumido:
-############################################
+
 
 ### - Notacion N:
 Se utiliza para determinar la escalabilidad y velocidad de un algoritmo.
