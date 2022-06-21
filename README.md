@@ -12,7 +12,7 @@ Tipos =>
 #### Constante:
 
 (en el grafico es una recta con pendiente 0, osea y = K, con K constante) => implica que el algoritmo funciona igual ya sea para N = 1 o N tendiendo a infinito
------------------------------------------------
+
 ###### Log N => 
 -implica que el algoritmo tiene muy buena escalabilidad, de hecho es la mejor que podriamos encontrar.
 Ya que el logaritmo es => Log N en base 2 = Z, donde 2 ^ Z = N, la base del logaritmo es 2 siempre por la computacion
