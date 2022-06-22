@@ -98,5 +98,45 @@ print("\n - QUICK SORT \n SPECIFICATIONS: \n Average runtime: O(n.log(n)) - \n "
 
 # MERGE SORT
     
-#--- falta
+def merge_sort(arr):
+    # caso base
+    if len(arr) > 1:
+        # partimos el array en 2
+        middle = len(arr)//2
+        # creamos lado izquierdo y derecho
+        partitionLeft = arr[:middle]
+        partitionRight = arr[middle:]
+        
+        # recursividad, volvemos a hacer hasta que queden los numeros solos
+        merge_sort(partitionLeft)
+        merge_sort(partitionRight)
+        # incializamos contadores en 0 los 3
+        i = j = k = 0
+        # reocrremos partitionLeft y partitionRight con sus respectivos punteros
+        # cuando se cumple la condicion aumentamos el puntero de un lado o de otro
+        while i < len(partitionLeft) and j < len(partitionRight):
+            if partitionLeft[i] < partitionRight[j]:
+                arr[k] = partitionLeft[i]
+                i+=1
+            else:
+                arr[k] = partitionRight[j]
+                j+=1    
+            # siempre aumentamos k+1 ya que va ir poniendolos en el array general
+            k+=1
+        
+        # para que no quede ningun elemento fuera comprobamos
+        # esto no es necesario si se ejecuta bien
+        while i < len(partitionLeft):
+            arr[k] = partitionLeft[i]
+            i+=1
+            k+=1
+            
+        while j < len(partitionRight):
+            arr[k] = partitionRight[j]
+            j+=1
+            k+=1
+    return arr    
+
+print("\n - MERGE SORT \n SPECIFICATIONS: \n Average runtime: O(n.log(n)) - \n ",merge_sort(get_arr()), "\n")
+
     
