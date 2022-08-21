@@ -15,11 +15,11 @@ Tipos =>
 
 
 #### Constante:
-
+- LA MEJOR ESCALABILIDAD, DESEABLE DE ENCONTRAR.
 (en el grafico es una recta con pendiente 0, osea y = K, con K constante) => implica que el algoritmo funciona igual ya sea para N = 1 o N tendiendo a infinito
 
 #### Log N => 
--implica que el algoritmo tiene muy buena escalabilidad, de hecho es la mejor que podriamos encontrar.
+-implica que el algoritmo tiene muy buena escalabilidad, de hecho es una de las mejores que podriamos encontrar.
 Ya que el logaritmo es => Log N en base 2 = Z, donde 2 ^ Z = N, la base del logaritmo es 2 siempre por la computacion
 es decir el sistema binario que entiende la computadora.
 Y el logaritmo implica que =>
@@ -38,8 +38,7 @@ Cantidad de data          Pasos para resolver
 No es muy eficiente, pero mejor que otros es. Linear search
 
 #### N.log(n) -
-- (hiperbola)=> La mayoria de algoritmos tienen esta escalabilidad
-es aceptable. Merge sort, quick sort
+- (hiperbola)=> Es bastante ineficiente, ya entra en el rango de muy ineficientes.
 
 #### n ^ 2 
 -(parabola ineficiente pero mejor que los siguientes) = Bubble sort, insertion sort, selection sort.
